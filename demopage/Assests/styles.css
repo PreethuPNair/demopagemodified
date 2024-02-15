@@ -1,0 +1,586 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 60px;
+
+}
+
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: blue;  
+}
+nav ul li a.active {
+    font-weight: bold; 
+}
+
+
+.banner {
+    position: relative;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 87, 221, 0.5);
+    justify-content: center; 
+}
+
+.content {
+    text-align: center;
+    z-index: 1; 
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3; 
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.black-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button:hover {
+    background-color: #333;
+}
+
+.title-image-section {
+    display: flex;
+   /* align-items: center; */
+    justify-content: space-between;
+    padding: 50px;
+    body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 60px;
+
+}
+
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: blue;  
+}
+nav ul li a.active {
+    font-weight: bold; 
+}
+
+
+.banner {
+    position: relative;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 87, 221, 0.5);
+    justify-content: center; 
+}
+
+.content {
+    text-align: center;
+    z-index: 1; 
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3; 
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.black-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button:hover {
+    background-color: #333;
+}
+
+.title-image-section {
+    display: flex;
+   /* align-items: center; */
+    justify-content: space-between;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.content1 {
+   
+    overflow: scroll;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+
+    width: 600px;
+    height: 300px;
+    background-size: contain ;
+    padding-left: 10px;
+    background-size: cover;
+}
+.content h2,
+.content p {
+    text-align: justify;
+}
+.button-wrapper1 {
+    text-align: justify;
+}
+
+.black-button1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button1:hover {
+    background-color: #333;
+}
+
+
+
+.image-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.image-new {
+    flex: 1;
+    text-align: left;
+}
+
+.image-new img {
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+}
+
+.content2 {
+    
+    flex: 1;
+   
+}
+
+.content2 h2,
+.content2 p {
+    text-align: justify;
+    padding-bottom: 10px;
+    overflow: scroll;
+    max-height: 100px;
+}
+
+.button-wrapper2 {
+    text-align: justify;
+}
+
+.black-button2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button2:hover {
+    background-color: #333;
+}
+
+
+.footer-content {
+    background-color:#007bff;
+    color: white;
+    padding: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+h2, p {
+    margin: 5px 0;
+    text-align: left;
+    padding-bottom: 5px;
+   
+}
+
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #333;
+}
+
+.copyright-section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text, .right-text {
+    flex: 1;
+}
+.left-text{
+
+    padding-left: 40px;
+    flex-grow: 12;
+
+}
+
+.right-text{
+
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+
+
+}
+
+.content1 {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+
+    width: 600px;
+    height: 300px;
+    background-size: contain ;
+    padding-left: 10px;
+    background-size: cover;
+}
+.content h2,
+.content p {
+    text-align: justify;
+}
+.button-wrapper1 {
+    text-align: justify;
+}
+
+.black-button1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button1:hover {
+    background-color: #333;
+}
+
+
+
+.image-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.image-new {
+    flex: 1;
+    text-align: left;
+}
+
+.image-new img {
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+}
+
+.content2 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.content2 h2,
+.content2 p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.button-wrapper2 {
+    text-align: justify;
+}
+
+.black-button2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button2:hover {
+    background-color: #333;
+}
+
+
+.footer-content {
+    background-color:#007bff;
+    color: white;
+    padding: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+h2, p {
+    margin: 5px 0;
+    text-align: left;
+    padding-bottom: 5px;
+   
+}
+
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #333;
+}
+
+.copyright-section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text, .right-text {
+    flex: 1;
+}
+.left-text{
+
+    padding-left: 40px;
+
+}
+
+.right-text{
+
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+
